@@ -1,0 +1,13 @@
+DDifference between Batch Processing and Stream Processing
+  - Batch Processing is large chunks of data moved from source destination at a scheduled interval
+      - Database records, files source
+      - Database, filesystems, object storage output storage
+      - Performance Metrics - Throughput (How many records are processed)
+      - ETL for data warehouse
+  - Stream Processing is data pulled in real time from the source destination and loaded into repositories (either every 10 seconds, upon arrival or by an event trigger)
+      - Source is generated from IoT devices or any real/semi-real time data
+      - Performance metrics - Latency (how much time to take to process each piece of data)
+      - Capture real-time events from mobile devices, Fraud detection on online services
+      
+      
+      
