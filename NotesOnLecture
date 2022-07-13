@@ -1,4 +1,4 @@
-DDifference between Batch Processing and Stream Processing
+Difference between Batch Processing and Stream Processing
   - Batch Processing is large chunks of data moved from source destination at a scheduled interval
       - Database records, files source
       - Database, filesystems, object storage output storage
@@ -8,6 +8,14 @@ DDifference between Batch Processing and Stream Processing
       - Source is generated from IoT devices or any real/semi-real time data
       - Performance metrics - Latency (how much time to take to process each piece of data)
       - Capture real-time events from mobile devices, Fraud detection on online services
-      
+
+About Kafka
+  - Distributed multiple processes on multiple servers, resilient, fault tolerant, and scalable messaging middleware
+  - It can be a data-hub between diverse data source
+  - Items sent and received require a distribution strategy
+  - Record age limit - means that its no longer needed
+  
+
+
       
       
